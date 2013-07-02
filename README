@@ -1,0 +1,37 @@
+Speaker Identification: test data
+CS122 W'10
+
+This data was generated from transcripts of the 2004 and 2008
+presidential debates.  You can find the raw source data
+http://www.cs.princeton.edu/introcs/data/ or 
+http://www.debates.org.
+
+README: this file
+
+sim.c: sample C program that opens a file, reads in the file using getText,
+  and then prints the name of the file and its length (minus running
+  white space).
+
+t-model.txt: model text for the example in the assignment
+t-test.txt: test string for the example in the assignment
+
+bush1+2.txt: model text for Bush in the Bush/Kerry debates,
+	     generated from the text of the first two 2004 debates.
+kerry1+2.txt:model text for Kerry in the Bush/Kerry debates,
+	     generated from the text of the first two 2004 debates.
+bush-kerry3: directory containing sample quotes for Bush and
+   Kerry, plus expected output (.out).  For example
+
+   ./similiarity ../bush1+2.txt ../kerry1+2.txt BUSH-0.txt > BUSH-0.out
+
+
+obama1+2.txt: model text for Obama in the McCain/Obama debates
+   generated from the text of the first two 2008 debates.
+mccain1+2.txt: model text for Obama in the McCain/Obama debates
+   generated from the text of the first two 2008 debates.
+obama-mccain3: directory containing sample quotes for McCain and Obama (.txt)
+   plus expected output (.out).  For example:
+
+   ./similiarity ../obama1+2.txt ../mccain1+2.txt OBAMA-0.txt > OBAMA-0.out
+
+
